@@ -5,6 +5,25 @@ body {
     Helvetica Neue, Arial, sans-serif;
 }
 
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 12px;
+    width: 50px;
+    border-radius: 4px;
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
 .container {
   max-width: 100%;
   width: 800px;
@@ -58,4 +77,13 @@ body {
 
 .weapon-stats {
   flex: 1;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+
+  td {
+    text-align: center;
+  }
 }
