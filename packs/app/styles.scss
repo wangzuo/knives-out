@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   color: #333;
@@ -73,6 +79,14 @@ body {
 .weapon-img {
   margin-right: 20px;
   text-align: center;
+
+  img {
+    max-width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    width: 60px;
+  }
 }
 
 .weapon-stats {
